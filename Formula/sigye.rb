@@ -5,23 +5,23 @@ class Sigye < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/am2rican5/sigye/releases/download/v0.6.0/sigye-aarch64-apple-darwin.tar.gz"
-      sha256 "143845cb1ca428d0262696c8d52ec3ac4a6aef43cd0942125630cf4076c4c99e"
+      url "https://github.com/am2rican5/sigye/releases/download/v0.7.0/sigye-aarch64-apple-darwin.tar.gz"
+      sha256 "b5dff0a371ceec970cb2d4d50ecffd0d8ce1e0d74319fd908755fd1346b4eb83"
     end
     on_intel do
-      url "https://github.com/am2rican5/sigye/releases/download/v0.6.0/sigye-x86_64-apple-darwin.tar.gz"
-      sha256 "78bd3ce290dc5661e20672aaa24c4f6730251981407e32f7b7c8ec888da2f16d"
+      url "https://github.com/am2rican5/sigye/releases/download/v0.7.0/sigye-x86_64-apple-darwin.tar.gz"
+      sha256 "ce5ed063169fe434e907029e13b829b7148348d34e0ec1087669ca5aeef2b5f2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/am2rican5/sigye/releases/download/v0.6.0/sigye-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "8857d403f214a988bc4074b34d15e0fccd4b89a3eb580f70d1263b0b75e7548c"
+      url "https://github.com/am2rican5/sigye/releases/download/v0.7.0/sigye-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "08de28e43a07ad26b38a30eda70eba4a4aec38ffee0165302821a9aa12ecab55"
     end
     on_intel do
-      url "https://github.com/am2rican5/sigye/releases/download/v0.6.0/sigye-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0a971b0637ddd5f7bd200b458ce43e8accad6630f53917ce077df44095d8d5bf"
+      url "https://github.com/am2rican5/sigye/releases/download/v0.7.0/sigye-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "1e5dd69d63283e849a24370a93acd92c8f1622f07e300312d4a2afe246ce4557"
     end
   end
 
